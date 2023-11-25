@@ -3,7 +3,7 @@ kind: Pod
 metadata: 
   name: Myfirstpod
   labels: 
-    env=dev
+    env: dev
 spec:
   containers: 
     - name: containername
