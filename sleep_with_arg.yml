@@ -15,4 +15,4 @@ spec:
           value: Raghu
         - name: city
           value: Bangalore
-          args: ["sleep","50"]
+      args: ["sleep","50"]
