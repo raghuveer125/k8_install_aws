@@ -19,7 +19,7 @@ spec:
     - name: secondcontainer
       image: coolgourav147/nginx-custom
   initcontainers:
-    - name: firstcontainer
+    - name: initcontainer
       image: coolgourav147/nginx-custom
       env: 
         - name: myname
