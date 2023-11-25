@@ -13,5 +13,5 @@ spec:
     - nodePort: 32000
       port: 9000
       targetPort: 80
-selector:
-  type: app
+  selector:
+    type: app
