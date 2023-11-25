@@ -15,4 +15,4 @@ spec:
       - naem: my ports expose
         protocol: TCP
         containerPort: 8000
-        targetPort: 80
+        port: 80
