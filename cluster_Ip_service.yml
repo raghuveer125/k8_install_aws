@@ -12,6 +12,7 @@ spec:
     - name: containername
       image: coolgourav147/nginx-custom
       ports:
-      - protocol: TCP
-        port: 8000
+      - naem: my ports expose
+        protocol: TCP
+        containerPort: 8000
         targetPort: 80
