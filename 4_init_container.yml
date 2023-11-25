@@ -18,7 +18,7 @@ spec:
       args: ["sleep","100"]
     - name: secondcontainer
       image: coolgourav147/nginx-custom
-  initcontainers:
+  initContainers:
     - name: initcontainer
       image: coolgourav147/nginx-custom
       env: 
