@@ -5,6 +5,7 @@ metadata:
   name: myfirstpod
   labels: 
     env: dev
+    newlable: daksh
 
 spec:
   containers: 
