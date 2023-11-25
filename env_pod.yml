@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod
+
+metadata: 
+  name: mysecondpod
+  labels: 
+    newlable: daksh
+
+spec:
+  containers: 
+    - name: containername
+      image: coolgourav147/nginx-custom
+      env: 
+        - name: myname
+          value: Raghu
+        - name: city
+          value: Bangalore
