@@ -8,5 +8,6 @@ metadata:
 spec:
   containers:
       - name: myapp-container
-        image: coolgrourav127/nginx-custom
+        image: coolgourav147/nginx-custom
+        
         
