@@ -10,11 +10,11 @@ spec:
   replicas: 2
   selector:
     matchExpressions:
-     key: app
-     operator: In
-     values: 
-      - myapp1
-      - myapp2
+     - key: app
+       operator: In
+       values: 
+        - myapp1
+        - myapp2
   template:
     metadata: 
       name: pod
