@@ -9,7 +9,7 @@ metadata:
 spec:
   replicas: 3
   selector:
-    matchLables:
+    matchLabels:
       app: mydapp
   template:
     metadata: 
