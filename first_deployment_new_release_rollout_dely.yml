@@ -25,4 +25,4 @@ spec:
     spec:
       containers: 
       - name: container
-        image: coolgourav147/nginx-custom:v2
+        image: coolgourav147/nginx-custom:v1
