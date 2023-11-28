@@ -8,11 +8,11 @@ metadata:
 
 spec:
   replicas: 10
-  minReadySeconds: 10
+  minReadySeconds: 5
   strategy:
     rollingUpdate:
-      maxSurge: 0
-      maxUnavailable: 1
+      maxSurge: 2
+      maxUnavailable: 0
     type: RollingUpdate
   selector:
     matchLabels:
