@@ -23,4 +23,4 @@ spec:
     spec:
       containers: 
       - name: container
-        image: coolgourav147/nginx-custom
+        image: raghuveer125/raghuveer125
