@@ -10,4 +10,4 @@ metadata:
 spec:
   containers: 
     - name: containername
-      image: coolgourav147/nginx-custom
+      image: raghuveer125/raghuveer125
