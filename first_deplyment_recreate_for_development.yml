@@ -22,4 +22,4 @@ spec:
     spec:
       containers: 
       - name: container
-        image: coolgourav147/nginx-custom:v2
+        image: raghuveer125/raghuveer125:v2

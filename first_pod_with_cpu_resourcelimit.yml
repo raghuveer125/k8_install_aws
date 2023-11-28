@@ -8,7 +8,7 @@ metadata:
 spec:
   containers:
       - name: myapp-container
-        image: coolgourav147/nginx-custom
+        image: raghuveer125/raghuveer125
         resources:
           requests:
             memory: 200Mi
