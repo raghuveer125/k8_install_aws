@@ -9,7 +9,8 @@ metadata:
 spec:
   replicas: 3
   selector:
-    app: mydapp
+    matchLables:
+      app: mydapp
   template:
     metadata: 
       name: dpod
