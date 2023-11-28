@@ -10,13 +10,11 @@ spec:
   replicas: 2
   selector:
     app: myapp
-    type: frontend
   template:
     metadata: 
       name: pod
       labels: 
        app: myapp
-       type: frontend
   spec:
       containers: 
       - name: container
