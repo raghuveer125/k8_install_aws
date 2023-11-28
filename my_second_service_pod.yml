@@ -9,4 +9,4 @@ metadata:
 spec:
   containers: 
     - name: containername
-      image: raghuveer125/raghuveer125:v1
+      image: raghuveer125/raghuveer125
