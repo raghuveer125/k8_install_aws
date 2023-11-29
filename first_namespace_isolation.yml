@@ -1,0 +1,7 @@
+apiVersion: apps/v1
+kind: ResourceQota
+metadata:
+  name: myquota
+spec: 
+  hard:
+   pods: 2
